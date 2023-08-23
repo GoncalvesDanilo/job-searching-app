@@ -7,13 +7,13 @@ Welcome to the Job Searching App built with React Native! This app is designed t
 Here are some screenshots of the app in action:
 
 1. Home Screen
-![Home Screen](./assets/images/home.PNG)
+<img src="./assets/images/home.PNG" alt="Home Screen" width="300" height="auto">
 
 2. Job Listings
-![Job Listings](./assets/images/search.PNG)
+<img src="./assets/images/search.PNG" alt="Home Screen" width="300" height="auto">
 
 3. Job Details
-![Job Details](./assets/images/job.PNG)
+<img src="./assets/images/job.PNG" alt="Home Screen" width="300" height="auto">
 
 ## Features
 
