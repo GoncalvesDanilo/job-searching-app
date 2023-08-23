@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { View, ScrollView, SafeAreaView } from 'react-native';
+import { View, ScrollView, SafeAreaView, StatusBar } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
 import { NearbyJobs, PopularJobs, Welcome, ScreenHeaderBtn } from '../components';
 
@@ -11,6 +11,7 @@ const Home = () => {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
+      <StatusBar barStyle="dark-content" />
       <Stack.Screen
         options={{
           headerStyle: { backgroundColor: COLORS.lightWhite },
